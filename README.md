@@ -1,2 +1,5 @@
 # ProtocolRouter
 协议路由-是用于iOS的App模块化编程的简化实现方案，吸收了BeeHive框架Protocol的理念来实现模块间的解耦。
+
+
+作为此框架的初级版本,ProtocolRouter实现了模块间的解耦和模块生命周期的管理,可以在模块的相应协议服务类里处理一些额外事件.
