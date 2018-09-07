@@ -20,9 +20,15 @@
 - (void)dealloc {
     NSLog(@"%@ dealloc",self);
 }
-
-
-
+- (UIViewController *)controllerFromString:(NSString *)string{
+    UIViewController *vc = [NSClassFromString(string) new];
+    if (vc) {
+        return vc;
+    }else{
+        NSLog(@"没有 %@ 相关的类! 请重新检查您的代码!", string);
+        return nil;
+    }
+}
 @end
 
 
@@ -48,18 +54,24 @@
 
 @end
 
-#import "BController.h"
+//#import "BController.h"
+NSString *const BController = @"BController";
 @implementation BProtocolSI
 @synthesize serverController;
+//- (UIViewController *)serverController{
+//    if (serverController)
+//        return serverController;
+//    else {
+//        BController *vc = [BController new];
+//        vc.protocolSI = self;
+//        serverController = vc;
+//        return serverController;
+//    }
+//}
 - (UIViewController *)serverController{
-    if (serverController)
-        return serverController;
-    else {
-        BController *vc = [BController new];
-        vc.protocolSI = self;
-        serverController = vc;
-        return serverController;
-    }
+    return serverController ?: ({UIViewController *vc = [self controllerFromString:BController];
+        vc.protocolSI = self; serverController = vc;
+        serverController; });
 }
 @end
 
