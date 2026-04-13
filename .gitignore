@@ -65,3 +65,5 @@ iOSInjectionProject/
 # Claude Code
 .claude/
 CLAUDE.md
+
+.vscode/

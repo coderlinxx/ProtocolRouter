@@ -419,7 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 663Q598VGA;
 				INFOPLIST_FILE = "$(SRCROOT)/ProtocolRouter/SupportFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GoGoGold.ProtocolRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,7 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 663Q598VGA;
 				INFOPLIST_FILE = "$(SRCROOT)/ProtocolRouter/SupportFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.GoGoGold.ProtocolRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
