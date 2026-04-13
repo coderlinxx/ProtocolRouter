@@ -12,7 +12,8 @@
 @synthesize callback;
 @synthesize param;
 - (instancetype)init{
-    if (self == [super init]) {
+    self = [super init];
+    if (self) {
         NSLog(@"%@ init success", self);
     }
     return self;
@@ -38,7 +39,8 @@
 @synthesize serverController;
 
 - (instancetype)init{
-    if (self == [super init]) {
+    self = [super init];
+    if (self) {
         //可以在每个子协议里面对相应模块进行特殊处理
     }
     return self;

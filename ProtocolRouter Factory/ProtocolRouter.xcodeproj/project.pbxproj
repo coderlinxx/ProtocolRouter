@@ -19,6 +19,7 @@
 		7E8739F521193D130083E661 /* BController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8739F221193D130083E661 /* BController.m */; };
 		7E8739FC211944B90083E661 /* ModulePublicProtocolSI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8739FA211944B90083E661 /* ModulePublicProtocolSI.m */; };
 		7E873A0A21197B2E0083E661 /* CController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E873A0921197B2E0083E661 /* CController.m */; };
+		7E8E0A992F8CD46200977A80 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E0A982F8CD46200977A80 /* SceneDelegate.m */; };
 		7EDCD816212FFDA0006F93D4 /* UIViewController+ProtocolSI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDCD814212FFDA0006F93D4 /* UIViewController+ProtocolSI.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		7E8739FE21196EC00083E661 /* ModulePublicProtocol+Second.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModulePublicProtocol+Second.h"; sourceTree = "<group>"; };
 		7E873A0821197B2E0083E661 /* CController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CController.h; sourceTree = "<group>"; };
 		7E873A0921197B2E0083E661 /* CController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CController.m; sourceTree = "<group>"; };
+		7E8E0A972F8CD45800977A80 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7E8E0A982F8CD46200977A80 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		7EDCD814212FFDA0006F93D4 /* UIViewController+ProtocolSI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ProtocolSI.m"; sourceTree = "<group>"; };
 		7EDCD815212FFDA0006F93D4 /* UIViewController+ProtocolSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ProtocolSI.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +99,8 @@
 				7E8739BF2118125E0083E661 /* ViewController.h */,
 				7E8739C02118125E0083E661 /* ViewController.m */,
 				7E8739D4211819110083E661 /* ExampleModules */,
+				7E8E0A972F8CD45800977A80 /* SceneDelegate.h */,
+				7E8E0A982F8CD46200977A80 /* SceneDelegate.m */,
 			);
 			path = MainApp;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				7E8739BE2118125E0083E661 /* AppDelegate.m in Sources */,
 				7EDCD816212FFDA0006F93D4 /* UIViewController+ProtocolSI.m in Sources */,
 				7E873A0A21197B2E0083E661 /* CController.m in Sources */,
+				7E8E0A992F8CD46200977A80 /* SceneDelegate.m in Sources */,
 				7E8739F521193D130083E661 /* BController.m in Sources */,
 				7E8739DD21181B2F0083E661 /* Router.m in Sources */,
 				7E8739FC211944B90083E661 /* ModulePublicProtocolSI.m in Sources */,
